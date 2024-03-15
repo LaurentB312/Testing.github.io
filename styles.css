@@ -1,0 +1,27 @@
+body{
+    background: #fff;
+    color: black;
+    font-size: 1rem;
+    font-family: "Poppins";
+    line-height: 1.52;
+    margin: 0;
+    text-align: center  ;
+}
+
+body{
+    display: block;
+}
+
+.navbar{
+    background-color: #c79316;
+    color: #fff;
+    text-transform: uppercase;
+
+
+}
+
+
+
+.container-fluid{
+    padding: auto;
+}
