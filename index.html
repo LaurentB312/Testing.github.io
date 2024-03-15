@@ -1,96 +1,523 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Bootstrap 5 Website Example</title>
+  <title>Manual de sección organizacional</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+
+  <link href="\manual\styles.css" rel="stylesheet">
   <style>
-  .fakeimg {
-    height: 200px;
-    background: #aaa;
-  }
+    .fakeimg {
+      height: 200px;
+      width: 100;
+      background: #aaa;
+    }
   </style>
-  
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="javascript:void(0)">Logo</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="mynavbar">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Link</a>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="text" placeholder="Search">
-        <button class="btn btn-primary" type="button">Search</button>
-      </form>
-    </div>
+
+
+<!--empieza seccion navbar-->
+  <div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown link
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
   </div>
 </nav>
+<!--Finaliza el navbar-->
+
+
+
 </head>
-  
+</div>
+</div>
 <body>
 
-<div class="p-5 bg-primary text-white text-center">
-  <h1>My First Bootstrap 5 Page</h1>
-  <p>Resize this responsive page to see the effect!</p> 
-</div>
-  
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-sm-4">
-      <h2>About Me</h2>
-      <h5>Photo of me:</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-      <h3 class="mt-4">Some Links</h3>
-      <p>Lorem ipsum dolor sit ame.</p>
-      <ul class="nav nav-pills flex-column">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-      <hr class="d-sm-none">
-    </div>
-    <div class="col-sm-8">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2020</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
 
-      <h2 class="mt-5">TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2020</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+
+<!--Inicia contenido-->
+
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container-fluid">
+        <h1 class="display-4 text-center">Manual de sección organizacional.</h1>
+        <p class="lead"></p>
+      </div>
+    </div>
+
+  
+
+    <div class="list-group">
+      <button type="button" class="list-group-item list-group-item-action">Resumen ejecutivo</button>
+      <button type="button" class="list-group-item list-group-item-action active">Administrativo organizacional</button>
+      <button type="button" class="list-group-item list-group-item-action">Mercado</button>
+      <button type="button" class="list-group-item list-group-item-action">Producción o servicios</button>
+      <button type="button" class="list-group-item list-group-item-action">Responsabilidad social</button>
+      <button type="button" class="list-group-item list-group-item-action">Legal</button>
+      <button type="button" class="list-group-item list-group-item-action">Finanzas</button>
+
+    </div>
+
+
+     
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <h2 class="mt-5">Nombre del proyecto.</h2>
+
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title">Nombre de la empresa en el IMPI</h2>
+        <p class="card-text">Es necesario que al seleccionar el nombre de un proyecto, se verifique si el nombre de la empresa está
+          disponible en el IMPI, para eso hay que revisar la siguiente página:</p>
+    
+        <p>
+          <a class="btn btn-primary" data-toggle="collapse" href="https://marcia.impi.gob.mx/marcas/search/quick" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Link with href
+          </a>
+        </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="card">
+        <div class="card-body">
+          <h2 class="card-title">Dar el alta en el IMPI</h2>
+        <p class="card-text">Para darse de alta en el IMPI, se debe consultar los lineamientos necesarios a continuación:</p>
+          
+        
+        <p>
+            <a class="btn btn-primary" data-toggle="collapse" href="https://www.gob.mx/tramites/ficha/solicitud-de-registro-de-marca-ante-el-impi/IMPI88" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Link with href
+            </a>
+          </p>
+          </div>
+        </div>
+      </div>
+      </div>
+    
+      <div class="container-fluid">
+      <div class="row">
+  <div class="col-lg">
+        <h2 class="mt-5">Misión</h2>
+        <p>
+          Enunciado en el que una empresa comunica a los agentes externos e internos, el objeto, propósito o razón de
+          ser una empresa
+        </p>
+
+
+            <div class="card" style="width: 100;">
+          <div class="card-header">
+            <h5>Para formular una misión se debe considerar las siguientes preguntas:</h5>
+        </div>
+      <ul class="list-group list-group-flush">
+
+        <li class="list-group-item">¿Quiénes somos?</li>
+        <li class="list-group-item">¿Qué hacemos?</li>
+        <li class="list-group-item">¿Porque lo hacemos?</li>
+        <li class="list-group-item">¿Para que lo hacemos?</li>
+        <li class="list-group-item">¿Para quien lo hacemos?</li>
+        </p>
     </div>
   </div>
 </div>
 
-<div class="mt-5 p-4 bg-dark text-white text-center">
-  <p>Footer</p>
+
+
+<div class="col-lg">
+        <h2 class="mt-5">Filosofía</h2>
+        
+        <p>
+          Para que la empresa tenga una identidad que defina la manera en la que se llevan a cabo los procesos internos
+          y un estilo que distinga de la competencia, es necesario definir una filosofia empresarial
+        </p>
+        
+        <p>
+          La filosofía es el conjunto de elementos que definen las practicas empresariales. Dentro de la filosofia se
+          encuentra la misión, visión y los valores.
+        </p>
+
+        </div>
+        
+        <div class="card" style="width: 100;">
+          <div class="card-header">
+            <h5>Para formular una filosofia se debe considerar las siguientes preguntas:</h5>
+        </div>
+      <ul class="list-group list-group-flush">
+
+        <li class="list-group-item">¿Qué se desea lograr?</li>
+        <li class="list-group-item">¿Hacia dónde nos dirigimos?</li>
+        <li class="list-group-item">¿Dónde queremos estar en el futuro?</li>
+        <li class="list-group-item">¿Cómo lo conseguiremos?</li>
+        </p>
+        </div>
+      </div>
+   
+
+
+        <div class="col-lg">
+        <h2 class="mt-5">Objetivos</h2>
+        
+        <p>
+          Resultados de una empresa que busca alcanzar o los que pretende llegar en un periodo de tiempo definido,
+          según sus recursos con los que dispone y la filosofía de la empresa.
+        </p>
+
+        <p>
+          Es importante que al hacer un plan de negocios se realicen los objetivos ya que sin ellos no se pueden
+          evaluar los resultados obtenidos
+        </p>
 </div>
 
+<div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+          <div class="card-title">
+            <h5>Existen diferentes tipos de objetivos:</h5>
+        </div>
+
+      <ul class="list-group list-group-flush">
+
+        <li class="list-group-item">Objetivo general</li>
+        <li class="list-group-item">Objetivo específico</li>
+        <li class="list-group-item">Objetivo a corto plazo</li>
+        <li class="list-group-item">Objetivo a largo plazo</li>
+        </div>
+      </div>
+      </div>
+    
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+            <div class="card-title">
+     
+          <h5>Los objetivos deben de ser SMART:</h5>
+      </div>
+    <ul class="list-group list-group-flush">
+
+      <li class="list-group-item">Medible</li>
+      <li class="list-group-item">Alcancable</li>
+      <li class="list-group-item">Relevante</li>
+      <li class="list-group-item">Tiempo</li>
+      </div>
+    </div>
+
+    
+  
+    <div class="row">
+  <div class="col-lg">
+    <h2 class="mt-5">Imagen corporativa</h2>
+ 
+    <p>
+      La imagen corporativa es la percepción que tiene público hacia la empresa. Es el conjunto de creencias, ideas y
+      sentimientos de los consumidores, dependiente de variables como los productos y servicios ofrecidos, la relación
+      con los clientes y trabajadores y la sociedad. 
+    </p>
+
+    <p>
+      Tener una buena imagen corporativa facilita que el público se indentifique con la marca, que la empresa sea facilmente reconocida y crear vinculo con el consumidor.
+    </p>
+    <div class="card" style="width: 100;">
+  <div class="card-header">
+          <h5>Los elementos de la imagen corporativa son los siguientes:</h5>
+      </div>
+
+    <ul class="list-group list-group-flush">
+      <p>
+      <h4>Nombre de la empresa</h4>
+      <li class="list-group-item">Debe ser breve, atractivo y diferenciador.</li>
+      
+    </p>
+    <p>
+      <h4>Eslogan</h4>
+    <li class="list-group-item">Resume la filosofía de la empresa de manera creativa</li>
+  </p> 
+  <p>
+    <h4>Logotipo y símbolos</h4>
+    <li class="list-group-item">Resume la esencia de la empresa con imágenes creativas y sencillas que van de acuerdo con
+      los productos ofrecidos.</li>
+    </p>
+    <p>
+      <h4>Identidad cromática:</h4>
+    <li class="list-group-item">Elección de colores utilizados para reforzar la imagen e identidad de la empresa</li>
+    </p>
+  
+  </ul>
+</div>
+</div>
+
+    <p>
+      Todos los elementos mencionados, debe tener una relación con las actividades de la empresa.
+    </p>
+
+    <p>
+      <strong>A continuación se presenta un ejemplo de imagen corporativa</strong>
+    </p>
+
+    <figure class="figure">
+      <img src="img\Imagen1.png" class="figure-img img-fluid rounded" alt="">
+      <img src="img\Imagen2.png" class="figure-img img-fluid rounded" alt="">
+    <figcaption class="figure-caption text-right">Imagen Corporativa</figcaption>
+    </figure>
+
+
+</div>
+
+
+
+<div class="col-sm-3">
+  <h2 class="mt-5">Análisis (DOFA)</h2>
+  
+  <p>
+    También conocido como analisis FODA, el cual el análisis de los factores fuertes y débiles dentro de una empresa
+      según sus factores internos y externos
+  </p>
+  
+  <p>
+    <strong>A continuación, te presentamos algunas preguntas que podria hacerte identificar:</strong>
+  </p>
+  
+  <h2 class="mt-5"></h2>
+  <div class="card"">
+    <div class="card-header">En las fortalezas:
+  </div>
+
+<ul class="list-group list-group-flush">
+
+  <li class="list-group-item">¿Qué es lo que hace bien la empresa?</li>
+  <li class="list-group-item">¿Qué la hace especial a la empresa?</li>
+  <li class="list-group-item">¿Qué le gusta a la audiencia de la empresa?</li>
+</ul>
+
+  </div>
+    </div>
+
+  <div class="col-sm-3">
+  <h2 class="mt-5"></h2>
+
+<div class="card" style="width: 100;">
+  <div class="card-header">En las debilidades:
+</div>
+<ul class="list-group list-group-flush">
+
+<li class="list-group-item">¿Qué iniciativas no funcionan bien y el porqué de ellas?</li>
+<li class="list-group-item">¿Qué se podría mejorar?</li>
+<li class="list-group-item">¿Qué recursos benefician al rendimiento de la empresa y cuáles no?</li>
+</ul>
+  </div>
+    </div>
+
+
+<div class="col-sm-3">
+<h2 class="mt-5"></h2>
+
+<p>
+  Las oportunidades y amenazas hablan de los factores externos, que son provocados por el entorno (La competencia,
+  economía, restricciones del gobierno).
+</p>
+
+<p>
+  <strong>A continuación, te presentamos algunas preguntas que podrías hacerte para identificar:</strong>
+</p>
+
+
+<div class="card" >
+  <div class="card-header">En las oportunidades:
+</div>
+<ul class="list-group list-group-flush">
+
+<li class="list-group-item">¿Cuáles son las metas de la empresa para este año?</li>
+<li class="list-group-item">¿Qué recursos se pueden utilizar para la mejora en las áreas donde se encuentren las debilidades?</li>
+<li class="list-group-item">¿En qué áreas nos supera la competencia?</li>
+</ul>
+  </div>
+    </div>
+
+<div class="col-sm-3">
+<h2 class="mt-5"></h2>
+
+<div class="card">
+  <div class="card-header">En las amenazas:
+</div>
+<ul class="list-group list-group-flush">
+
+<li class="list-group-item">¿Qué cambios son preocupantes para la empresa?</li>
+<li class="list-group-item">¿Qué nuevas tendencias del mercado se vislumbran?</li>
+<li class="list-group-item">¿Qué recursos benefician al rendimiento de la empresa y cuáles no?</li>
+</ul>
+
+</div>
+  </div>
+
+</div>
+
+
+
+  <div class="col-sm-8">
+    <h2 class="mt-5">Estructura organizacional</h2>
+    <p>Representación gráfica de la subordinación jerárquica de la organización, las líneas de autoridad, explica quién
+      responde a quién (canales de comunicación) y forman una guía que permita visualizar los diferentes
+      departamentos/puestos que integran a esta misma.</p>
+    <h5 class="mt-5">Organigrama de gobierno corporativo</h5>
+    <div class="fakeimg">Fake Image</div>
+</div>
+
+<div class="col-sm-8">
+    <h2 class="mt-5">Análisis y descripción de puestos</h2>
+    <p>Para describir los puestos es importante considerar que hay que ser específicos. Es necesario, además de la
+      descripción general, estipular el nombre del puesto, el departamento al que pertenece, el tipo de jornada que
+      lleva (horas en las que realizará la jornada), dónde puede realizará sus labores, cuáles serán sus actividades
+      durante la jornada, qué tan frecuente las realizará, de quién recibe órdenes, a quién le da órdenes, las
+      responsabilidades que tiene, escolaridad, la experiencia requerida, etc.
+      La descripción de puestos debe ser breve, fácil de entender tanto para la empresa como para el trabajador, y
+      servir como herramienta para definir las funciones del puesto, su importancia y cómo evaluar su desempeño.
+    </p>
+    <p>Algunos ejemplos de formato para la descripción de puesto:</p>
+    <div class="fakeimg">Fake Image</div>
+  
+    <div class="fakeimg">Fake Image</div>
+</div>
+ 
+
+  <div class="col-sm-8">
+    <h2 class="mt-5">Reclutamiento y Selección</h2>
+    <p>En reclutamiento se necesita definir qué medios se utilizarán o se planea utilizar para publicar el anuncio de la
+      vacante así como también, por supuesto, elaborar la vacante de empleo para el puesto solicitado. De no ser
+      necesario publicar una vacante para los puestos explicar el motivo y justificarlo dentro del plan de negocios.</p>
+    <p>Cuando los puestos están descritos de forma adecuada, la parte de selección de personal consiste en únicamente
+      encontrar al candidato ideal que en conjunto de la personalidad y aptitudes puedan cubrir con lo que se espera en
+      la descripción de puestos. En la selección, se define la forma en la que se buscará al mejor candidato.</p>
+    <div class="fakeimg">Fake Image</div>
+
+</div>
+
+<div class="col-sm-8">
+
+    <h2 class="mt-5">Contratación e inducción</h2>
+    <p>Durante la contratación es necesaria la realización de un contrato de trabajo, que cumpla con los requerimientos
+      necesarios indicados por la Ley Federal De Trabajo. </p>
+    <p>En el artículo 25 de la LFT, se menciona que el contrato debe contener elementos como el nombre, nacionalidad,
+      sexo, RFC, lugar donde se prestará el servicio, horario, monto de pago, etc.</p>
+    <p>Durante la inducción, se explican las actividades que se realizan, al igual que una introducción a la empresa en
+      donde se abarque la filosofía y la información relevante.</p>
+</div>
+
+    <div class="col-sm-8">
+      <h2 class="mt-5">Capacitación y desarrollo de personal</h2>
+      <p>Una forma eficiente de planear una capacitación es realizando un cronograma de actividades para una
+        capacitación del personal que ingresa a la organización así como también la capacitación para alguno de los
+        puestos quienes necesiten conocimientos específicos sobre algún proceso.
+      </p>
+      <p>Como por ejemplo este cronograma de actividades enfocado al proceso de inducción:</p>
+      <h5>Cronograma de Actividades</h5>
+      <div class="fakeimg">Fake Image</div>
+
+</div>
+
+<div class="col-sm-8">
+      <h2 class="mt-5">Administración de sueldos y salarios</h2>
+      <p>Al momento de determinar el sueldo y salario, es importante considerar el salario mínimo y que el salario sea
+        competitivo. También se puede colocar como irá incrementando el salario con el pasar del tiempo. </p>
+      <p>Existen varios métodos para la asignación del sueldo y salario, siendo los siguientes: </p>
+      <li>Método de ranking.</li>
+      <p>Se comparan los puestos, clasificándolos de acuerdo a su importancia. La importancia se asigna según las
+        responsabilidades del puesto. </p>
+      <li>Método de evaluación por puntos.</li>
+      <p>Los puestos se dividen en función de varios factores como la habilidad, el esfuerzo, la formación, el
+        conocimiento, las responsabilidades, etc. Asignando puntos a cada factor.</p>
+      <li>Método de comparación de factores.</li>
+      <p>Clasifica los puestos mediante la comparación y analiza los puestos por factores comparables. Considera los
+        factores a los que se les dará mayor o menor valor. Se utiliza para el staff, profesionales y gerenciales.</p>
+      <li>Método de clasificación.</li>
+      <p>Los grados de trabajo son establecidos por un comité autorizado según la dificultad o las habilidades que
+        requieren.
+        Al establecer los grados, cada puesto se clasifica según su grado o clase, fijando una tasa de salario diferente
+        para cada grado.
+      </p>
+      </div>
+
+      <div class="col-sm-8">
+        <h2 class="mt-5">Seguridad e hingiene</h2>
+        <p>Este apartado va de la mano con las Normas Oficiales Mexicanas ligadas al tipo de producción de la empresa.
+          Debido a que las aplicaciones y cuidados pueden variar bastante entre giros, es necesario realizar una
+          investigación que les permita conocer cuáles son las medidas reglamentarias para este apartado. En este
+          apartado se describirán las maneras en que la empresa cuida tanto de sus trabajadores como de sus consumidores
+        </p>
+        <p>Como por ejemplo este cronograma de actividades enfocado al proceso de inducción:</p>
+        <p>Algunas menciones importantes son la iluminación, ventilación, si se requiere de guantes, cubrebocas,
+          señalamientos, entre otros.</p>
+        <h5>Cronograma de Actividades</h5>
+        <div class="fakeimg">Fake Image</div>
+</div>
+        
+      <div class="col-sm-8">
+        <h2 class="mt-5">Administración de sueldos y salarios</h2>
+        <p>Al momento de determinar el sueldo y salario, es importante considerar el salario mínimo y que el salario sea
+          competitivo. También se puede colocar como irá incrementando el salario con el pasar del tiempo. </p>
+        <p>Existen varios métodos para la asignación del sueldo y salario, siendo los siguientes: </p>
+        <li>Método de ranking.</li>
+        <p>Se comparan los puestos, clasificándolos de acuerdo a su importancia. La importancia se asigna según las
+          responsabilidades del puesto. </p>
+        <li>Método de evaluación por puntos.</li>
+        <p>Los puestos se dividen en función de varios factores como la habilidad, el esfuerzo, la formación, el
+          conocimiento, las responsabilidades, etc. Asignando puntos a cada factor.</p>
+        <li>Método de comparación de factores.</li>
+        <p>Clasifica los puestos mediante la comparación y analiza los puestos por factores comparables. Considera los
+          factores a los que se les dará mayor o menor valor. Se utiliza para el staff, profesionales y gerenciales.</p>
+        <li>Método de clasificación.</li>
+        <p>Los grados de trabajo son establecidos por un comité autorizado según la dificultad o las habilidades que
+          requieren.
+          Al establecer los grados, cada puesto se clasifica según su grado o clase, fijando una tasa de salario
+          diferente para cada grado.
+        </p>
+
+
+
+
+      </div>
+
+
+      
+    </div>
+  </div>
+
+
+
+
+  <!--EMPIEZA EL FOOTER-->
+  <div class="mt-5 p-4 bg-dark text-white text-center">
+    <p>Footer</p>
+  </div>
+
 </body>
+
 </html>
