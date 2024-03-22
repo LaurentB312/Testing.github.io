@@ -1,27 +1,43 @@
 body{
-    background: #fff;
+    background: white;
     color: black;
     font-size: 1rem;
     font-family: "Poppins";
-    line-height: 1.52;
-    margin: 0;
-    text-align: center  ;
-}
-
-body{
-    display: block;
 }
 
 .navbar{
-    background-color: #c79316;
-    color: #fff;
     text-transform: uppercase;
-
-
 }
 
 
 
-.container-fluid{
-    padding: auto;
+@media (min-width: 576px){
+    .carousel{
+        display: block;
+    }
 }
+
+
+
+
+.circulo>h1 {
+	width: 10rem;
+    height: auto;
+	border-radius: 5%;
+	background: black;
+	display:block;
+	justify-content: center;
+	align-items: center;
+	text-align:right;
+  margin:0px auto;
+  padding:10%;
+  color:khaki
+}
+
+h1{
+    color: red;
+}
+
+
+
+
